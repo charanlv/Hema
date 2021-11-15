@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+}
+.home {
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(248, 241, 241);
+    height: 440px;
+    border-radius: 30px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    border-radius: 50%;    
+}
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background-color: rgb(36, 166, 226);
+}
+.btn {
+    margin: 10px 0;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.container{
+    width: 220px;
+    height: 220px;
+    background-image: linear-gradient(to bottom right , #326be6 ,#3fc5f0);
+    border-radius: 30px 30px 0 ;
+}
+.mini-container {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color:  #57b8f8f8;
+    left: 190px;
+}
+.mini-container div{
+    width: 30px;
+    height: 30px;
+    background-color: white ;
+    border-top-right-radius: 30px;
+    
+}
+
+.wishes {
+    font-size: 0.7em;
+    color: rgb(7, 7, 7);
+    line-height: 2;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wishes p {
+    color: rgb(33, 36, 36);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.box > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px ;
+    gap: 10px;
+    margin: 0 10px;
+}
+img {
+    width: 100% ;
+    border-radius: 20px;
+}
+.prabhas {
+    height: 76px;
+    width: 120px;
+}
